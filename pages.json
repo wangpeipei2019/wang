@@ -1,0 +1,954 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/main/tabbar0/tabbar0",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/main/tabbar1/tabbar1",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/main/tabbar2/tabbar2",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/main/tabbar3/tabbar3",
+			"style": {
+				"navigationStyle": "custom",
+				"bounce": "none",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationStyle": "custom",
+				"bounce": "none",
+				"app-plus": {
+					"titleNView": false,
+					 "softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/login/get",
+			"style": {
+				"bounce": "none",
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		 {
+			"path": "pages/login/verification",
+			"style": {
+				"bounce": "none",
+				"navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#FFFFFF",
+					"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/discovery/discovery-detail/discovery-detail",
+			"style": {
+				"navigationBarTitleText": "",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		}, {
+			"path": "pages/tenant/index/pick-city/pick-city",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}, {
+			"path": "pages/tenant/index/search/search",
+			"style": {
+				"bounce": "none",
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		}, {
+			"path": "pages/tenant/index/index-message/index-message",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/index/message-detail/message-activity",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/index/hot-theme/hot-theme",
+			"style": {
+				 "navigationStyle": "custom" ,
+				  "app-plus": {
+					 "titleNView": false
+						/* "titleNView": {
+							"type": "transparent"
+						} */
+					} 
+			}
+		},
+		{
+			"path": "pages/tenant/index/recommend-city/recommend-city",
+			"style": {
+				"navigationBarTitleText": "西安"
+			}
+
+		},
+		{
+			"path": "pages/tenant/index/chalet-detail/chalet-detail",
+			"style": {
+				//"navigationStyle": "custom",
+				"navigationBarTitleText": "一木生活",
+				/* 木屋详情 */
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/index/chalet-detail/landlord-detail",
+			"style": {
+				//"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				/* 房东信息 */
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/landlord/landlord-detail",
+			"style": {
+				//"navigationStyle": "custom",
+				"navigationBarTitleText": "",
+				/* 房东信息 */
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/order/main-order",
+			"style": {
+				"navigationBarTitleText": "我的订单" ,//木屋设施
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/order/main-orderPay",
+			"style": {
+				"navigationBarTitleText": "订单详情", //待付款
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/index/chalet-detail/chalet-sheshi",
+			"style": {
+				"navigationBarTitleText": "房屋设施" /* 房屋设施 */
+			}
+		}, {
+			"path": "pages/tenant/index/selected-scenic/selected-scenic",
+			"style": {
+				"navigationBarTitleText": "一木生活",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/order/confirm-order/confirm-order",
+			"style": {
+				"navigationBarTitleText": "确认订单",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/order/confirm-order/payment",
+			"style": {
+				"navigationBarTitleText": "订单明细"
+			}
+		},
+		{
+			"path": "pages/tenant/index/chalet-detail/map-detail",
+			"style": {
+				// 地图详情
+			}
+		},
+		{
+			"path": "pages/tenant/order/code",
+
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTitleText": "退款政策" //退款守则
+				/* "app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				} */
+			}
+		},
+		{
+			"path": "pages/landlord/resource/photo/photo",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/order/cancel",
+
+			"style": {
+
+				"navigationBarTitleText": "一木生活", //已取消订单
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/landlord/landlord-data",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+				 	"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/order/check-in/check-list",
+			"style": {
+				"navigationStyle": "custom",
+				/*添加入住人*/
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/order/check-in/add-check",
+			"style": {
+				"navigationBarTitleText": "新增入住人",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/setting/main/main-setting",
+
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/tenant/application-landlord/information",
+			"style": {
+				"navigationBarTitleText": "请完善信息",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/application-landlord/RealID",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/application-landlord/mobileNumber",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "请帮助我们验证您的身份",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/application-landlord/receipt",
+			"style": {
+				"navigationBarTitleText": "选择收款方式",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/application-landlord/addReceipt",
+			"style": {
+				"navigationBarTitleText": "添加支付宝",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/application-landlord/addWeixin",
+			"style": {
+				"navigationBarTitleText": "添加微信",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus":{
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/order/order_pay/order_pay",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/main/addressList",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/main/address",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/crowdfundingOrder",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/orderDetail",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		/***************房东端**************/
+		{
+			"path": "pages/landlord/resource/position/position",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/specification/specification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/types/types",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/characteristic/characteristic",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/sheshi/sheshi",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/claim/claim",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/code/code",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/other/other",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/listingCalendar/listingCalendar",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/listingCalendar/which",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/order/wait-confirm/wait-confirm",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/landlord/message/order-status/order-status",
+			"style": {
+				/* "navigationBarTitleText": "订单状态",
+				"navigationBarBackgroundColor": "#FFFFFF", */
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/toll/toll",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/refundRule/refundRule",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/verification/verification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/guide/newest",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/guide/checkInMethod",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/guide/guide",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/guide/facility",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/resource/guide/claim",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/order/personal-details/personal-details",
+			"style": {
+				"navigationBarTitleText": "一木生活",
+				"app-plus": {
+					"titleNView": {
+						"type": "transparent"
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/operating/operating",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/operating/income",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/main/account",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+
+		},
+		{
+			"path": "pages/setting/main/phoneNumber",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/setting/main/phoneVerification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+
+		},
+		{
+			"path": "pages/setting/main/emailVerification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+
+		},
+		{
+			"path": "pages/setting/main/email",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize" 
+				}
+			}
+
+		},
+		{
+			"path": "pages/tenant/index/tenant-main/footPrint",
+			"style": {
+				"navigationBarTitleText": "我的足迹",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/index/tenant-main/feedBack",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"app-plus": {
+					"softinputMode": "adjustResize" 
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/index/tenant-main/commonProblemList",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/index/tenant-main/commonProblem",
+			"style": {
+				"navigationBarTitleText": "常见问题",
+				"navigationBarBackgroundColor": "#FFFFFF"
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/programDetail",
+
+			"style": {
+				"navigationBarTitleText": "方案详情",
+				"navigationBarBackgroundColor": "#FFFFFF"
+
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/program",
+
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/subscription",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/OrderConfirmation",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/order_pay",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/news",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/feedBack",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/account",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/phoneNumber",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/phoneVerification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/email",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/emailVerification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/password",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/setting/landlord/setting",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/collectionSetting/receipt",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/collectionSetting/addReceipt",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/landlord/collectionSetting/addWeixin",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/email",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/emailVerification",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/addressList",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/address",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false,
+					"softinputMode": "adjustResize"
+				}
+			}
+		},
+		{
+			"path": "pages/tenant/crowdfunding/crowdfundingList",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+					"titleNView": false
+				}
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "一木生活",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#626262",
+		"selectedColor": "#3DCF94",
+		"borderStyle": "black",
+		"backgroundColor": "#FFFFFF",
+		"list": [{
+				"pagePath": "pages/main/tabbar0/tabbar0",
+				"iconPath": "static/tabIcon/tab_home_normal@xxxhdpi.png",
+				"selectedIconPath": "static/tabIcon/tab_home_selected@xxxhdpi.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/main/tabbar1/tabbar1",
+				"iconPath": "static/tabIcon/tab_discover_normal@xxxhdpi.png",
+				"selectedIconPath": "static/tabIcon/tab_discover_selected@xxxhdpi.png",
+				"text": "发现"
+			}, {
+				"pagePath": "pages/main/tabbar2/tabbar2",
+				"iconPath": "static/tabIcon/tab_crowdfunding_normal@xxxhdpi.png",
+				"selectedIconPath": "static/tabIcon/tab_crowdfunding_selected@xxxhdpi.png",
+				"text": "众筹"
+			}, {
+				"pagePath": "pages/main/tabbar3/tabbar3",
+				"iconPath": "static/tabIcon/tab_pre_normal@xxxhdpi.png",
+				"selectedIconPath": "static/tabIcon/tab_pre_selected@xxxhdpi.png",
+				"text": "我的"
+			}
+		]
+	}
+}

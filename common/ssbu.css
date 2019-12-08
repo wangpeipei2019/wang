@@ -1,0 +1,33 @@
+.ssbu-status-bar {
+	height: var(--status-bar-height);
+	width: 100%;
+}
+
+.ssbu-bottom {
+	height: calc(var(--window-bottom) + 10px);
+}
+
+uni-modal .uni-modal__bd {
+	font-size: 26upx;
+	color: #3d3d3d;
+}
+
+uni-modal .uni-modal__btn {
+	font-size: 26upx;
+}
+
+uni-modal .uni-modal__btn_primary {
+	color: #45c298 !important;
+}
+
+uni-modal .uni-modal__btn_default {
+	color: #8a8a8a !important;
+}
+
+uni-modal .uni-modal__bd {
+	padding: 2em 1.6em;
+}
+
+.rich-text {
+	overflow: hidden;
+}
